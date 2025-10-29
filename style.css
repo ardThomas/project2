@@ -66,3 +66,19 @@ img {
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
 }
 
+/* Fixed width layout for resume page */
+body:has(title:contains("Resume")) {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 0.1rem solid #ccc;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* fluid layout for index and ssbu pages */
+body:has(title:contains("Index")),
+body:has(title:contains("Super Smash Bros.")) {
+  width: 90%;
+  margin: 0 auto;
+}
