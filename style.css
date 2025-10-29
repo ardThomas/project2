@@ -68,7 +68,7 @@ img {
 }
 
 /* Fixed width layout for resume page */
-body:has(title:contains("Resume")) {
+body.resume {
   max-width: 900px;
   margin: 0 auto;
   background-color: #fff;
@@ -78,8 +78,8 @@ body:has(title:contains("Resume")) {
 }
 
 /* Fluid layout for index and ssbu pages */
-body:has(title:contains("Index")),
-body:has(title:contains("Super Smash Bros.")) {
+body.index,
+body.ssbu {
   width: 90%;
   margin: 0 auto;
 }
