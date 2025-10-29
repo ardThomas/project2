@@ -85,7 +85,9 @@ body:has(title:contains("Super Smash Bros.")) {
 }
 
 /* Lists on resume page */
-ul {
+body ul {
+  list-style: disc;
+  list-style-position: inside;
   width: 75%;
   margin: 1rem auto;
   line-height: 1.5;
