@@ -15,6 +15,15 @@ body {
   line-height: 1.6;
 }
 
+/* Unordered lists */
+ul {
+  list-style-position: inside;
+  width: 75%;
+  margin: 1rem auto;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /* Header and Navigation */
 header {
   background-color: #333;
@@ -82,15 +91,6 @@ body:has(title:contains("Index")),
 body:has(title:contains("Super Smash Bros.")) {
   width: 90%;
   margin: 0 auto;
-}
-
-/* Unordered lists */
-ul {
-  list-style-position: inside;
-  width: 75%;
-  margin: 1rem auto;
-  line-height: 1.5;
-  text-align: center;
 }
 
 /* Styling for video on ssbu.html */
