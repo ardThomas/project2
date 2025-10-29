@@ -54,6 +54,7 @@ p {
   width: 80%;
   margin: 1rem auto;
   font-size: 1rem;
+  text-align: center;
 }
 
 /* Images */
@@ -88,4 +89,5 @@ ul {
   width: 75%;
   margin: 1rem auto;
   line-height: 1.5;
+  text-align: center;
 }
