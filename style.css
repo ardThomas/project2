@@ -15,16 +15,6 @@ body {
   line-height: 1.6;
 }
 
-/* Unordered lists */
-ul {
-  list-style: none;
-  list-style-position: inside;
-  width: 75%;
-  margin: 1rem auto;
-  line-height: 1.5;
-  text-align: center;
-}
-
 /* Header and Navigation */
 header {
   background-color: #333;
