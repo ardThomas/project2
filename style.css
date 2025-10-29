@@ -76,9 +76,16 @@ body:has(title:contains("Resume")) {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-/* fluid layout for index and ssbu pages */
+/* Fluid layout for index and ssbu pages */
 body:has(title:contains("Index")),
 body:has(title:contains("Super Smash Bros.")) {
   width: 90%;
   margin: 0 auto;
+}
+
+/* Lists on resume page */
+ul {
+  width: 75%;
+  margin: 1rem auto;
+  line-height: 1.5;
 }
