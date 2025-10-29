@@ -17,6 +17,7 @@ body {
 
 /* Unordered lists */
 ul {
+  list-style: none;
   list-style-position: inside;
   width: 75%;
   margin: 1rem auto;
